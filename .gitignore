@@ -2,10 +2,14 @@
 .venv/
 __pycache__/
 *.pyc
- 
+# venv created directly in backend/
+backend/lib/
+backend/bin/
+backend/include/
+backend/pyvenv.cfg
+pyvenv.cfg
 # macOS
 .DS_Store
- 
-# Generated dictionary data (rebuild with backend/build_dictionary.py)
+# Generated dictionary data
 dictionary.db
 kaikki-korean.jsonl

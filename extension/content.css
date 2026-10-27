@@ -1,0 +1,8 @@
+.kh-word {
+  border-bottom: 1px dotted rgba(120, 120, 120, 0.8);
+  cursor: help;
+}
+
+.kh-word:hover {
+  background: rgba(255, 215, 0, 0.3);
+}

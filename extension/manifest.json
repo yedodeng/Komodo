@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Korean Hover Dictionary",
+  "version": "0.1.0",
+  "description": "Hover over Korean words on a page to see the English meaning and definition.",
+  "host_permissions": ["http://localhost:8000/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+ 
+# macOS
+.DS_Store
+ 
+# Generated dictionary data (rebuild with backend/build_dictionary.py)
+dictionary.db
+kaikki-korean.jsonl

@@ -1,0 +1,3 @@
+kiwipiepy
+fastapi
+uvicorn
